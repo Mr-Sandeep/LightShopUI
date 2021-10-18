@@ -1,0 +1,15 @@
+.header{
+    background-color: black; 
+    height: 50px;
+}
+
+.fontStyle{
+    font-family: monospace;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.inputStyle{
+    /* opacity: 0.5; */
+    border-color: blue;
+}

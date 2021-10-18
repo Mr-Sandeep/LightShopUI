@@ -1,0 +1,22 @@
+<div class="card" style="height: 440px;">
+    <div class="row container-fluid">
+        <div class="container headerUserProfile" style="border: 1px solid;">
+            <div>User Profile</div>
+        </div>
+        <div class="col-md-5 " style="border: 1px solid;">
+            <img src="assets/userprofile.jpg" alt="user image" srcset="" class="img-fluid imgFitCss">
+        </div>
+        <div class="col-md-7" style="border: 1px solid;">
+        <table class="reqFont">
+            <tr><td>Name:</td><td>{{userData.userName?.substr(1,5)}}</td></tr>
+            <tr><td>Email Id:</td><td>{{userData.emailId}}</td></tr>
+            <tr><td>Contact Number:</td><td>{{userData.contactNo}}</td></tr>
+            <tr><td>Height:</td><td>{{userData.height}}</td></tr>
+            <tr><td>Weight:</td><td>{{userData.weight}}</td></tr>
+            <tr><td>Qualification:</td><td>{{userData.education}}</td></tr>
+            <tr><td>Address:</td><td>{{userData.address}}</td></tr>
+        </table>
+        </div>
+    </div>
+</div>
+

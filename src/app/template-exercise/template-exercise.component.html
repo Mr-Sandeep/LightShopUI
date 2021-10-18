@@ -1,0 +1,17 @@
+<!-- <p>template-exercise works!</p> -->
+
+<div>
+    <div class="header"></div>
+    <div >
+         <div class="fontStyle " style="margin:15px;">May I help you ?</div>
+         <div style="font-family: cursive; margin:15px;">Enter the book name:</div>
+         <div><input class="inputStyle" type="text" style="margin:15px;" (keyup)="storeInputVal(inpVal.value)" #inpVal></div>
+         <div style="margin:15px;"></div>
+         <div style="font-family: cursive; margin:15px;" *ngIf="checkSearchData()">You are searching for: {{searchInputData}}</div>
+         <!-- <div >You are searching for: </div> -->
+    </div>
+    <div class="header" style="margin: 15px"></div>
+    
+</div>
+
+

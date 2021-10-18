@@ -1,1 +1,21 @@
-<h1>New Component works!</h1>
+
+<div class="buttonAlignment">
+    <span>
+    <button type="button" class="btn btn-primary" (click)="(showProfile=true)">Profile</button>
+    <button type="button" class="btn btn-primary m-3" (click)="(showProfile=false)">Home</button>
+    <button type="button" class="btn btn-primary" (click)="(showTemplateExerciseFunc())">Template Exercise</button>
+    </span>
+</div>
+<div style="text-align: center; margin-top: 2%;" *ngIf="showProfile">
+    <!-- {{showProfile}} -->
+    <app-user-profile></app-user-profile>
+</div>
+
+<div style="text-align: center; margin-top: 2%;" >
+<app-template-exercise></app-template-exercise>
+</div>
+
+
+<!-- <input type="text" #uName (keyup)='checkUName(uName)'> -->
+<!-- <button type="button"  style="margin-left: 10px;" class="btn btn-warning">Print</button> -->
+<!-- <div style="margin-left: 20px;">{{testName  }}</div> -->

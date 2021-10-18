@@ -1,0 +1,15 @@
+.imgFitCss{
+    height: 300px;
+}
+
+.headerUserProfile{
+    height: 55px;
+    background: grey;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.reqFont{
+    font-family: cursive;
+    font-size: 20px;
+}

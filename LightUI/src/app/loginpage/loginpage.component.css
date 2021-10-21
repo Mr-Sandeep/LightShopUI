@@ -1,0 +1,29 @@
+.logincontainer{
+    top: 25%;
+    position: absolute;
+    left: 35%;
+    animation-name: example;
+  animation-duration: 0.5s;
+  /* animation-iteration-count: 2;
+  animation-direction: alternate;   */
+}
+
+.reqFont{
+    font-family: var(--bs-font-sans-serif);
+}
+
+.inpBorder{
+    border-bottom-color: black;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+
+@keyframes example {
+    /* 0%   { left:0px; top:0px;} */
+    /* 25%  { left:200px; top:0px;} */
+    0%  { left:0; top:25%;}
+    /* 75%  { left:0px; top:200px;} */
+    100% { left:35%; top:25%;}
+  }
